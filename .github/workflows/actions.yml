@@ -21,4 +21,4 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Build project
-        run: g++ main.cpp -std=c++17 -o roller
+        run: g++ GameDie.cpp main.cpp -std=c++17 -o roller
